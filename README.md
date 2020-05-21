@@ -7,7 +7,7 @@ The tree uses Gini index as the splitting criteria.
 Execution - 
 Type on command line - python decisionTree.py [args...]
 
-Where above [args...] is a placeholder for six command-line arguments: <train input> <test input> <max depth> <train out> <test out> <metrics out>.Theseargumentsarede- scribed in detail below:
+Where above [args...] is a placeholder for six command-line arguments : train_input test_input max_depth train_out test_out metrics_out. These arguments are described below:
 1. train input : path to the training input .tsv file
 2. test input : path to the test input .tsv file
 3. max depth : maximum depth to which the tree will be built
